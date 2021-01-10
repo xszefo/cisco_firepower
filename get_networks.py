@@ -19,9 +19,5 @@ def get_networks(token, uuid):
     
 
 if __name__ == '__main__':
-    #result = get_token()
-    #get_networks(result['token'], result['uuid'])
-
-    token = 'd0c8409a-dffb-4b9a-897b-49c28d345180' 
-    uuid = 'e276abec-e0f2-11e3-8169-6d9ed49b625f'
-    get_networks(token, uuid)
+    result = get_token()
+    get_networks(result['token'], result['uuid'])
